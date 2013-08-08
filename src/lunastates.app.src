@@ -1,0 +1,12 @@
+{application, lunastates,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { lunastates_app, []}},
+  {env, []}
+ ]}.
