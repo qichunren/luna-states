@@ -2,7 +2,7 @@ require "socket"
 
 sender = UDPSocket.new
 host = ARGV[0]
-port = ARGV[1] || 8080
+port = ARGV[1] || 8088
 
 puts "Connect to #{host}:#{port}"
 

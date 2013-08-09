@@ -2,7 +2,7 @@
 -export([start/0]).
 
 start() ->
-        spawn(fun() -> server(8080) end).
+        spawn(fun() -> server(8088) end).
 
 server(Port) ->
         {ok, Socket} = gen_udp:open(Port, [binary, {active, false}]),
